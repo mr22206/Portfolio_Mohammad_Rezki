@@ -57,19 +57,19 @@ const Footer = () => {
                     </div>
                     <div className="social-icons">
                         <Link to="https://www.linkedin.com/in/mohammad-rezki" target="_blank" rel="noopener noreferrer">
-                            <img src="/images/linkedin.svg" alt="LinkedIn" />
+                            <img src={process.env.PUBLIC_URL + '/images/linkedin.svg'} alt="LinkedIn" />
                         </Link>
                         <Link to="https://github.com/mr22206" target="_blank" rel="noopener noreferrer">
-                            <img src="/images/github.svg" alt="GitHub" />
+                            <img src={process.env.PUBLIC_URL + '/images/github.svg'} alt="GitHub" />
                         </Link>
                         <Link to="https://cvdesignr.com/p/6708f95e56332" target="_blank" rel="noopener noreferrer">
-                            <img src="/images/cv.svg" alt="CV" />
+                            <img src={process.env.PUBLIC_URL + '/images/cv.svg'} alt="CV" />
                         </Link>
                         <Link to="https://mr22206.github.io/Computer-troubleshooting-site/" target="_blank" rel="noopener noreferrer">
-                            <img src="/images/website.svg" alt="Site Web" />
+                            <img src={process.env.PUBLIC_URL + '/images/website.svg'} alt="Site Web" />
                         </Link>
                         <Link to="https://wa.me/33661388374" target="_blank" rel="noopener noreferrer">
-                            <img src="/images/discord.svg" alt="WhatsApp" />
+                            <img src={process.env.PUBLIC_URL + '/images/discord.svg'} alt="WhatsApp" />
                         </Link>
                     </div>
                 </div>
