@@ -1,7 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio_Mohammad_Rezki/static/css/main.37de20e7.css",
-    "main.js": "/Portfolio_Mohammad_Rezki/static/js/main.7f4c3e8e.js",
+    "main.js": "/Portfolio_Mohammad_Rezki/static/js/main.df494415.js",
+    "static/media/tech_info_tuto_logo.png": "/Portfolio_Mohammad_Rezki/static/media/tech_info_tuto_logo.612f772799170e90a17d.png",
+    "static/media/experiences-diverses-logo.png": "/Portfolio_Mohammad_Rezki/static/media/experiences-diverses-logo.f09a8c1785e603d8098c.png",
+    "static/media/avem_logo.png": "/Portfolio_Mohammad_Rezki/static/media/avem_logo.b5ab4caf4b031cbb9572.png",
+    "static/media/click_and_moi_logo.png": "/Portfolio_Mohammad_Rezki/static/media/click_and_moi_logo.9c7c58c6c8dd3a3c270e.png",
     "static/media/engineering.svg": "/Portfolio_Mohammad_Rezki/static/media/engineering.840f5fb5dc554c42c70f34479d5ab53b.svg",
     "static/media/education.svg": "/Portfolio_Mohammad_Rezki/static/media/education.c1ef780f93e91fa67b187f76efe6480e.svg",
     "static/media/crypto.svg": "/Portfolio_Mohammad_Rezki/static/media/crypto.b0b145392a884984ad0c375c8e7fef1e.svg",
@@ -13,10 +17,10 @@
     "static/media/quiz.svg": "/Portfolio_Mohammad_Rezki/static/media/quiz.86f693cf0345d4df8f8047ed6966f82b.svg",
     "index.html": "/Portfolio_Mohammad_Rezki/index.html",
     "main.37de20e7.css.map": "/Portfolio_Mohammad_Rezki/static/css/main.37de20e7.css.map",
-    "main.7f4c3e8e.js.map": "/Portfolio_Mohammad_Rezki/static/js/main.7f4c3e8e.js.map"
+    "main.df494415.js.map": "/Portfolio_Mohammad_Rezki/static/js/main.df494415.js.map"
   },
   "entrypoints": [
     "static/css/main.37de20e7.css",
-    "static/js/main.7f4c3e8e.js"
+    "static/js/main.df494415.js"
   ]
 }
