@@ -3,6 +3,10 @@ import './Experiences.css';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import Experience from '../components/Experience/Experience';
+import avemLogo from '../assets/images/avem_logo.png';
+import clickAndMoiLogo from '../assets/images/click_and_moi_logo.png';
+import techInfoTutoLogo from '../assets/images/tech_info_tuto_logo.png';
+import experiencesDiversesLogo from '../assets/images/experiences-diverses-logo.png';
 
 const Experiences = () => {
     const experiences = [
@@ -19,7 +23,8 @@ const Experiences = () => {
                 "Mise en place d'un système de maintenance préventive réduisant les incidents de 20%"
             ],
             competences: ["Support Technique", "Monétique", "Formation", "Maintenance", "Dépannage", "Service Client"],
-            logoUrl: "/images/avem_logo.png"
+            logoUrl: avemLogo
+            
         },
         {
             titre: "Formateur Numérique Seniors",
@@ -34,7 +39,7 @@ const Experiences = () => {
                 "Augmentation de 30% du taux de participation aux ateliers"
             ],
             competences: ["Formation", "Pédagogie", "Outils Numériques", "Communication", "Patience", "Adaptabilité"],
-            logoUrl: "/images/click_and_moi_logo.png"
+            logoUrl: clickAndMoiLogo
         },
         {
             titre: "Technicien Informatique",
@@ -50,7 +55,7 @@ const Experiences = () => {
                 "Amélioration de la sécurité des données pour 95% des clients"
             ],
             competences: ["Dépannage", "Maintenance", "Réseaux", "Sécurité", "Formation", "Gestion de Projet"],
-            logoUrl: "/images/tech_info_tuto_logo.png"
+            logoUrl: techInfoTutoLogo
         },
         {
             titre: "Expériences Diverses",
@@ -65,7 +70,7 @@ const Experiences = () => {
                 "Aide Plombier : Assistance technique et apprentissage rapide des compétences"
             ],
             competences: ["Polyvalence", "Adaptabilité", "Travail d'équipe", "Gestion du stress", "Organisation", "Service client"],
-            logoUrl: "/images/experiences-diverses-logo.png"
+            logoUrl: experiencesDiversesLogo
         }
     ];
 

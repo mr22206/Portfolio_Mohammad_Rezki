@@ -21,7 +21,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="hero-image">
-                        <img src="/images/mohammad_rezki.jpg" alt="Mohammad Rezki" />
+                        <img src={process.env.PUBLIC_URL + '/images/mohammad_rezki.jpg'} alt="Mohammad Rezki" />
                     </div>
                 </div>
             </div>
