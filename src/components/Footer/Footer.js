@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -7,42 +8,42 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="footer-section">
                     <h4>Mes Réalisations</h4>
-                    <a href="https://mr22206.github.io/Computer-troubleshooting-site/">
+                    <Link to="https://mr22206.github.io/Computer-troubleshooting-site/">
                         <p>Site de Dépannage</p>
-                    </a>
-                    <a href="https://github.com/mr22206">
+                    </Link>
+                    <Link to="https://github.com/mr22206">
                         <p>Projets GitHub</p>
-                    </a>
-                    <a href="https://cvdesignr.com/p/6708f95e56332">
+                    </Link>
+                    <Link to="https://cvdesignr.com/p/6708f95e56332">
                         <p>Mon CV</p>
-                    </a>
+                    </Link>
                 </div>
                 <div className="footer-section">
                     <h4>Mes Services</h4>
-                    <a href="/experiences">
+                    <Link to="/experiences">
                         <p>Support Informatique</p>
-                    </a>
-                    <a href="/experiences">
+                    </Link>
+                    <Link to="/experiences">
                         <p>Formation Seniors</p>
-                    </a>
-                    <a href="/experiences">
+                    </Link>
+                    <Link to="/experiences">
                         <p>Dépannage à Distance</p>
-                    </a>
+                    </Link>
                 </div>
                 <div className="footer-section">
                     <h4>Navigation</h4>
-                    <a href="/">
+                    <Link to="/">
                         <p>Accueil</p>
-                    </a>
-                    <a href="/experiences">
+                    </Link>
+                    <Link to="/experiences">
                         <p>Expériences</p>
-                    </a>
-                    <a href="/competences">
+                    </Link>
+                    <Link to="/competences">
                         <p>Compétences</p>
-                    </a>
-                    <a href="/contact">
+                    </Link>
+                    <Link to="/contact">
                         <p>Contact</p>
-                    </a>
+                    </Link>
                 </div>
                 <div className="footer-section">
                     <h4>Newsletter</h4>
@@ -55,21 +56,21 @@ const Footer = () => {
                         <p>📧 rezki.mohammad.222@gmail.com</p>
                     </div>
                     <div className="social-icons">
-                        <a href="https://www.linkedin.com/in/mohammad-rezki" target="_blank" rel="noopener noreferrer">
+                        <Link to="https://www.linkedin.com/in/mohammad-rezki" target="_blank" rel="noopener noreferrer">
                             <img src="/images/linkedin.svg" alt="LinkedIn" />
-                        </a>
-                        <a href="https://github.com/mr22206" target="_blank" rel="noopener noreferrer">
+                        </Link>
+                        <Link to="https://github.com/mr22206" target="_blank" rel="noopener noreferrer">
                             <img src="/images/github.svg" alt="GitHub" />
-                        </a>
-                        <a href="https://cvdesignr.com/p/6708f95e56332" target="_blank" rel="noopener noreferrer">
+                        </Link>
+                        <Link to="https://cvdesignr.com/p/6708f95e56332" target="_blank" rel="noopener noreferrer">
                             <img src="/images/cv.svg" alt="CV" />
-                        </a>
-                        <a href="https://mr22206.github.io/Computer-troubleshooting-site/" target="_blank" rel="noopener noreferrer">
+                        </Link>
+                        <Link to="https://mr22206.github.io/Computer-troubleshooting-site/" target="_blank" rel="noopener noreferrer">
                             <img src="/images/website.svg" alt="Site Web" />
-                        </a>
-                        <a href="https://wa.me/33661388374" target="_blank" rel="noopener noreferrer">
+                        </Link>
+                        <Link to="https://wa.me/33661388374" target="_blank" rel="noopener noreferrer">
                             <img src="/images/discord.svg" alt="WhatsApp" />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

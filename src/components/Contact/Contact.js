@@ -1,5 +1,6 @@
 import React from 'react';
 import './Contact.css';
+import { Link } from 'react-router-dom';
 
 const ContactCard = ({ 
     titre,
@@ -16,9 +17,9 @@ const ContactCard = ({
             <div className="contact-content">
                 <h2>{titre}</h2>
                 <p>{description}</p>
-                <a href={lien} target="_blank" rel="noopener noreferrer" className="contact-button">
+                <Link to={lien} target="_blank" rel="noopener noreferrer" className="contact-button">
                     {btnText}
-                </a>
+                </Link>
             </div>
         </div>
     );
