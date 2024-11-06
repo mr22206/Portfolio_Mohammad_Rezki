@@ -3,6 +3,7 @@ import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import { FaGithub, FaLinkedin, FaEnvelope, FaFileAlt, FaDownload } from 'react-icons/fa';
 import './Home.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -14,8 +15,8 @@ const Home = () => {
                         <h1>Mohammad Rezki</h1>
                         <h2>Étudiant Ingénieur en Informatique</h2>
                         <div className="hero-buttons">
-                            <a href="/contact" className="primary-button">Me Contacter</a>
-                            <a href="https://cvdesignr.com/p/6708f95e56332" className="secondary-button">
+                            <Link to="/contact" className="primary-button">Me Contacter</Link>
+                            <a href="https://cvdesignr.com/p/6708f95e56332" className="secondary-button" target="_blank" rel="noopener noreferrer">
                                 <FaDownload /> Télécharger CV
                             </a>
                         </div>
