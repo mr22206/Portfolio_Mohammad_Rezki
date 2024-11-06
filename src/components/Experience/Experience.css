@@ -1,0 +1,232 @@
+.experience-card {
+    background: linear-gradient(145deg, #2a2a7a, #3a3a9a);
+    border-radius: 20px;
+    padding: 40px;
+    margin: 25px auto;
+    width: 100%;
+    max-width: 1300px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.experience-header {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.experience-logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: transparent;
+    padding: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.experience-logo:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.experience-title {
+    flex-grow: 1;
+}
+
+.experience-title h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.experience-subtitle {
+    margin-top: 8px;
+}
+
+.experience-subtitle h3 {
+    margin: 0;
+    color: #ff9800;
+    font-size: 1.5em;
+}
+
+.experience-metadata {
+    display: flex;
+    gap: 20px;
+    margin-top: 8px;
+}
+
+.location, .periode {
+    color: #b0b0b0;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.experience-body {
+    padding-top: 25px;
+}
+
+.description-section {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.description {
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.realisations-section h4 {
+    color: #ff9800;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.realisations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.realisation-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    transition: transform 0.2s ease;
+}
+
+.realisation-item:hover {
+    transform: scale(1.02);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.realisation-number {
+    background: #ff9800;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+    font-size: 1.1em;
+}
+
+.realisation-item p {
+    margin: 0;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.competences-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+}
+
+.competence-tag {
+    background: linear-gradient(135deg, #232166, #2a2a7a);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1em;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.competence-tag:hover {
+    background: linear-gradient(135deg, #ff9800, #ff7800);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1024px) {
+    .experience-card {
+        margin: 25px 15px;
+        padding: 30px;
+    }
+
+    .realisations-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .experience-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .experience-metadata {
+        justify-content: center;
+    }
+
+    .realisations-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .experience-logo {
+        width: 100px;
+        height: 100px;
+        border-radius: 15px;
+    }
+
+    .experience-logo img {
+        border-radius: 15px;
+    }
+
+    .experience-title h2 {
+        font-size: 1.8em;
+    }
+
+    .experience-subtitle h3 {
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 1400px) {
+    .experience-card {
+        padding: 50px;
+    }
+
+    .realisations-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

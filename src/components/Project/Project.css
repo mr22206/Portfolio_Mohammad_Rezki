@@ -1,0 +1,82 @@
+.projects {
+    background-color: #232166;
+    color: white;
+    /* padding: 20px; */
+}
+
+.projects-content {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex; /* Utiliser Flexbox pour l'alignement horizontal */
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+    justify-content: space-around; /* Espace entre les éléments */
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.project-card {
+    background-color: #3a3a8a;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 5px 10px; /* Réduit la marge en haut et en bas à 5px, et garde 10px sur les côtés */
+    display: flex; /* Utiliser Flexbox pour centrer le contenu */
+    flex-direction: column; /* Aligne les éléments en colonne */
+    align-items: center; /* Centre horizontalement */
+    justify-content: center; /* Centre verticalement */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h2 {
+    font-size: 1.5em;
+}
+
+.project-card p {
+    font-size: 1em;
+}
+
+.project-details {
+    display: flex; /* Utiliser Flexbox pour aligner les éléments horizontalement */
+    align-items: center; /* Centre verticalement les éléments */
+    justify-content: space-between; /* Espace entre les éléments */
+    width: 100%; /* Assure que le conteneur prend toute la largeur */
+}
+
+.project-img, .project-description, .project-ugly {
+    margin: 20px; /* Espace entre les éléments */
+}
+
+
+
+.project-details img {
+    height: 100%; /* Ajuste la hauteur de l'image pour qu'elle prenne toute la hauteur disponible */
+    max-height: 100%; /* Assure que l'image ne dépasse pas la hauteur de son conteneur */
+}
+
+.project-description-text-p{ 
+    margin: 0%;
+    text-align: left;
+}
+
+.project-ugly {
+    display: flex; /* Utiliser Flexbox pour centrer Ugly */
+    align-items: center; /* Centre verticalement */
+}
+
+.icon {
+    width: 3em;
+    margin-top: -1em;
+    padding-bottom: 1em;
+    
+    
+  }
+
+.project-img {
+    color: white;
+}
+
