@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio_Mohammad_Rezki/static/css/main.37de20e7.css",
+    "main.js": "/Portfolio_Mohammad_Rezki/static/js/main.7f4c3e8e.js",
+    "static/media/engineering.svg": "/Portfolio_Mohammad_Rezki/static/media/engineering.840f5fb5dc554c42c70f34479d5ab53b.svg",
+    "static/media/education.svg": "/Portfolio_Mohammad_Rezki/static/media/education.c1ef780f93e91fa67b187f76efe6480e.svg",
+    "static/media/crypto.svg": "/Portfolio_Mohammad_Rezki/static/media/crypto.b0b145392a884984ad0c375c8e7fef1e.svg",
+    "static/media/server.svg": "/Portfolio_Mohammad_Rezki/static/media/server.0da8c3f9fbd92ac56c6194e9c9478241.svg",
+    "static/media/convert.svg": "/Portfolio_Mohammad_Rezki/static/media/convert.1c92575578d92e6c2ce605af84a3504f.svg",
+    "static/media/plumbing.svg": "/Portfolio_Mohammad_Rezki/static/media/plumbing.78df8d2c86bd9d0c7a63815a872bd1fd.svg",
+    "static/media/giec.svg": "/Portfolio_Mohammad_Rezki/static/media/giec.4ab24ef1cc2486a72fb86c98b89063cb.svg",
+    "static/media/troubleshooting.svg": "/Portfolio_Mohammad_Rezki/static/media/troubleshooting.77a53d39c5c3bf6d28b72ea1dc63f7de.svg",
+    "static/media/quiz.svg": "/Portfolio_Mohammad_Rezki/static/media/quiz.86f693cf0345d4df8f8047ed6966f82b.svg",
+    "index.html": "/Portfolio_Mohammad_Rezki/index.html",
+    "main.37de20e7.css.map": "/Portfolio_Mohammad_Rezki/static/css/main.37de20e7.css.map",
+    "main.7f4c3e8e.js.map": "/Portfolio_Mohammad_Rezki/static/js/main.7f4c3e8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37de20e7.css",
+    "static/js/main.7f4c3e8e.js"
+  ]
+}
