@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_Mohammad_Rezki/static/css/main.0264ad91.css",
-    "main.js": "/Portfolio_Mohammad_Rezki/static/js/main.a3f77bf2.js",
+    "main.css": "/Portfolio_Mohammad_Rezki/static/css/main.5f63d482.css",
+    "main.js": "/Portfolio_Mohammad_Rezki/static/js/main.dc72116b.js",
     "static/media/tech_info_tuto_logo.png": "/Portfolio_Mohammad_Rezki/static/media/tech_info_tuto_logo.612f772799170e90a17d.png",
     "static/media/experiences-diverses-logo.png": "/Portfolio_Mohammad_Rezki/static/media/experiences-diverses-logo.f09a8c1785e603d8098c.png",
     "static/media/avem_logo.png": "/Portfolio_Mohammad_Rezki/static/media/avem_logo.b5ab4caf4b031cbb9572.png",
@@ -16,11 +16,11 @@
     "static/media/troubleshooting.svg": "/Portfolio_Mohammad_Rezki/static/media/troubleshooting.77a53d39c5c3bf6d28b72ea1dc63f7de.svg",
     "static/media/quiz.svg": "/Portfolio_Mohammad_Rezki/static/media/quiz.86f693cf0345d4df8f8047ed6966f82b.svg",
     "index.html": "/Portfolio_Mohammad_Rezki/index.html",
-    "main.0264ad91.css.map": "/Portfolio_Mohammad_Rezki/static/css/main.0264ad91.css.map",
-    "main.a3f77bf2.js.map": "/Portfolio_Mohammad_Rezki/static/js/main.a3f77bf2.js.map"
+    "main.5f63d482.css.map": "/Portfolio_Mohammad_Rezki/static/css/main.5f63d482.css.map",
+    "main.dc72116b.js.map": "/Portfolio_Mohammad_Rezki/static/js/main.dc72116b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0264ad91.css",
-    "static/js/main.a3f77bf2.js"
+    "static/css/main.5f63d482.css",
+    "static/js/main.dc72116b.js"
   ]
 }
