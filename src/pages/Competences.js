@@ -139,9 +139,11 @@ const Competences = () => {
             <Header />
             <div className="competences-content">
                 <h1>Mes Compétences</h1>
-                {competencesData.map((categorie, index) => (
-                    <Competence key={index} {...categorie} />
-                ))}
+                <div className="competences-cards-container">
+                    {competencesData.map((categorie, index) => (
+                        <Competence key={index} {...categorie} />
+                    ))}
+                </div>
             </div>
             <Footer />
         </div>

@@ -105,3 +105,20 @@
     }
 }
 
+.projects, .experiences, .contact, .competences {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.projects-content, .experiences-content, .contact-content, .competences-content {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+

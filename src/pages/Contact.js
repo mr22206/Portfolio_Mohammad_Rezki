@@ -42,7 +42,7 @@ const Contact = () => {
             <Header />
             <div className="contact-content">
                 <h1>Contactez-moi</h1>
-                <div className="contact-container">
+                <div className="contact-cards-container">
                     {contactMethods.map((method, index) => (
                         <ContactCard 
                             key={index}
