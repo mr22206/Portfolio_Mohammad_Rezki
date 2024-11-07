@@ -25,20 +25,21 @@
 
 .contact-cards-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Crée 2 colonnes de taille égale */
-    gap: 30px;
-    width: 100%;
-    max-width: 1000px; /* Ajustez selon vos besoins */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    /* width: 100%; */
+    max-width: 1000px;
+    place-items: center;
 }
 
 .contact-card {
     background-color: #3a3a8a;
     border-radius: 15px;
     padding: 30px;
-    width: 100%;  /* Prend toute la largeur sur mobile */
-    max-width: 400px;  /* Limite la largeur sur desktop */
-    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 0;
 }
 
 .contact-card h2 {
@@ -50,42 +51,38 @@
 }
 
 .contact-details {
-    display: flex; /* Utiliser Flexbox pour aligner les éléments horizontalement */
-    align-items: center; /* Centre verticalement les éléments */
-    justify-content: space-between; /* Espace entre les éléments */
-    width: 100%; /* Assure que le conteneur prend toute la largeur */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
     flex-direction: column;
     gap: 20px;
 }
 
 .contact-img, .contact-description, .contact-ugly {
-    margin: 20px; /* Espace entre les éléments */
+    margin: 20px;
 }
-
-
 
 .contact-details img {
-    height: 100%; /* Ajuste la hauteur de l'image pour qu'elle prenne toute la hauteur disponible */
-    max-height: 100%; /* Assure que l'image ne dépasse pas la hauteur de son conteneur */
+    height: 100%;
+    max-height: 100%;
 }
 
-.contact-description-text-p{ 
+.contact-description-text-p{
     margin: 0%;
     text-align: left;
 }
 
 .contact-ugly {
-    display: flex; /* Utiliser Flexbox pour centrer Ugly */
-    align-items: center; /* Centre verticalement */
+    display: flex;
+    align-items: center;
 }
 
 .icon {
     width: 3em;
     margin-top: -1em;
     padding-bottom: 1em;
-    
-    
-  }
+}
 
 .contact-img {
     color: white;
@@ -120,21 +117,21 @@
     .contact-card {
         margin: 10px;
         padding: 20px;
-        width: calc(100% - 20px);  /* Ajuste la largeur en tenant compte des marges */
+        width: calc(100% - 20px);
     }
 
     .contact-icon {
-        font-size: 2em;  /* Icône plus petite sur mobile */
+        font-size: 2em;
         margin-bottom: 15px;
     }
 
     .contact-button {
-        width: 100%;  /* Bouton pleine largeur sur mobile */
+        width: 100%;
         padding: 12px;
     }
 
     .contact-cards-container {
-        grid-template-columns: 1fr; /* Une seule colonne sur mobile */
+        grid-template-columns: 1fr;
     }
 }
 

@@ -79,12 +79,9 @@ const Experiences = () => {
             <Header />
             <div className="experiences-content">
                 <h1>Mes Expériences Professionnelles</h1>
-                <div className="experiences-container">
+                <div className="experiences-cards-container">
                     {experiences.map((experience, index) => (
-                        <Experience 
-                            key={index}
-                            {...experience}
-                        />
+                        <Experience key={index} {...experience} />
                     ))}
                 </div>
             </div>
