@@ -45,4 +45,50 @@
     fill: #fff;
   }
 
+  /* Media queries pour mobile */
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .container .glass {
+      width: 140px;
+      height: 160px;
+      margin: 5px;
+      transform: none;
+    }
+
+    .container:hover .glass {
+      margin: 5px;
+    }
+
+    .container .glass::before {
+      height: 35px;
+      font-size: 0.9em;
+    }
+
+    .container .glass svg {
+      font-size: 2em;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .container .glass {
+      width: 120px;
+      height: 140px;
+    }
+
+    .container .glass::before {
+      height: 30px;
+      font-size: 0.8em;
+    }
+
+    .container .glass svg {
+      font-size: 1.8em;
+    }
+  }
+
   
