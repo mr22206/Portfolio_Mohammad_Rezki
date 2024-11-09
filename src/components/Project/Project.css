@@ -48,7 +48,8 @@
 }
 
 .project-img, .project-description, .project-ugly {
-    margin: 20px; /* Espace entre les éléments */
+    margin: 20px; 
+    /* Espace entre les éléments */
 }
 
 
@@ -64,12 +65,8 @@
 }
 
 .project-ugly {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+    display: flex; /* Utiliser Flexbox pour centrer Ugly */
+    align-items: center; /* Centre verticalement */
 }
 
 .icon {
@@ -84,3 +81,9 @@
     color: white;
 }
 
+@media screen and (max-width: 768px) {
+    .project-img, .project-description, .project-ugly {
+        margin: auto; 
+        align-items: center;
+    }
+}
