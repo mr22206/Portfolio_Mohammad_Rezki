@@ -13,6 +13,13 @@ import educationIcon from '../assets/img/svg/education.svg';
 import convertIcon from '../assets/img/svg/convert.svg';
 import serverIcon from '../assets/img/svg/server.svg';
 import weatherIcon from '../assets/img/svg/weather.svg';
+import reactIcon from '../assets/img/tech/react.svg';
+import nodejsIcon from '../assets/img/tech/nodejs.svg';
+import arduinoIcon from '../assets/img/tech/arduino.svg';
+import htmlIcon from '../assets/img/tech/html.svg';
+import cssIcon from '../assets/img/tech/css.svg';
+import javascriptIcon from '../assets/img/tech/javascript.svg';
+import pythonIcon from '../assets/img/tech/python.svg';
 
 
 
@@ -33,30 +40,11 @@ const Projects = () => {
                             linkGitHub={"https://github.com/mr22206/3W_Electron_App"}
                             linkDoc={"https://github.com/mr22206/3W_Electron_App/blob/main/README.md"}
                             linkMail={"mailto:techinfotuto@gmail.com"}
-                        />
-                    </div>
-                    <div className="project-card">
-                        <Project
-                            titleOfProject={"PCS Plumbing Website"}
-                            subtitleOfProject={"Site Vitrine Professionnel"}
-                            iconOfProjectSvg={<img className="icon" src={plumbingIcon} alt="icon" />}
-                            descriptionOfProject={"Site web professionnel pour une entreprise de plomberie à Carros, France, fournissant des informations sur les services de plomberie, chauffage et climatisation. Construit avec HTML, CSS, et JavaScript."}
-                            linkWebSite={"https://mr22206.github.io/Plumbing-website/"}
-                            linkGitHub={"https://github.com/mr22206/Plumbing-website"}
-                            linkDoc={"https://github.com/mr22206/Plumbing-website/blob/main/README.md"}
-                            linkMail={"mailto:techinfotuto@gmail.com"}
-                        />
-                    </div>
-                    <div className="project-card">
-                        <Project
-                            titleOfProject={"Dépannageinfo06"}
-                            subtitleOfProject={"Plateforme Support IT"}
-                            iconOfProjectSvg={<img className="icon" src={troubleshootingIcon} alt="icon" />}
-                            descriptionOfProject={"Site web offrant des services de support technique, dépannage informatique et formations personnalisées. Intègre la maintenance proactive et le support à distance. Développé en HTML, CSS, et JavaScript."}
-                            linkWebSite={"https://mr22206.github.io/Computer-troubleshooting-site/"}
-                            linkGitHub={"https://github.com/mr22206/Computer-troubleshooting-site"}
-                            linkDoc={"https://github.com/mr22206/Computer-troubleshooting-site/blob/main/README.md"}
-                            linkMail={"mailto:techinfotuto@gmail.com"}
+                            technologies={[
+                                { name: "React", icon: reactIcon },
+                                { name: "Node.js", icon: nodejsIcon },
+                                { name: "Arduino", icon: arduinoIcon }
+                            ]}
                         />
                     </div>
                     <div className="project-card">
@@ -69,6 +57,28 @@ const Projects = () => {
                             linkGitHub={"https://github.com/mr22206/Air-Quality-Data-Management-Tool.git"}
                             linkDoc={"https://github.com/mr22206/Air-Quality-Data-Management-Tool/blob/main/README.md"}
                             linkMail={"mailto:techinfotuto@gmail.com"}
+                            technologies={[
+                                { name: "React", icon: reactIcon },
+                                { name: "Node.js", icon: nodejsIcon },
+                                { name: "Arduino", icon: arduinoIcon }
+                            ]}
+                        />
+                    </div>
+                    <div className="project-card">
+                        <Project
+                            titleOfProject={"Dépannageinfo06"}
+                            subtitleOfProject={"Plateforme Support IT"}
+                            iconOfProjectSvg={<img className="icon" src={troubleshootingIcon} alt="icon" />}
+                            descriptionOfProject={"Site web offrant des services de support technique, dépannage informatique et formations personnalisées. Intègre la maintenance proactive et le support à distance. Développé en HTML, CSS, et JavaScript."}
+                            linkWebSite={"https://mr22206.github.io/Computer-troubleshooting-site/"}
+                            linkGitHub={"https://github.com/mr22206/Computer-troubleshooting-site"}
+                            linkDoc={"https://github.com/mr22206/Computer-troubleshooting-site/blob/main/README.md"}
+                            linkMail={"mailto:techinfotuto@gmail.com"}
+                            technologies={[
+                                { name: "HTML", icon: htmlIcon },
+                                { name: "CSS", icon: cssIcon },
+                                { name: "JavaScript", icon: javascriptIcon }
+                            ]}
                         />
                     </div>
                     <div className="project-card">
@@ -81,6 +91,12 @@ const Projects = () => {
                             linkGitHub={"https://github.com/mr22206/Quiz-TDMK-Site-Web-du-Projet"}
                             linkDoc={"https://github.com/mr22206/Quiz-TDMK-Site-Web-du-Projet/blob/main/README.md"}
                             linkMail={"mailto:techinfotuto@gmail.com"}
+                            technologies={[
+                                { name: "HTML", icon: htmlIcon },
+                                { name: "CSS", icon: cssIcon },
+                                { name: "JavaScript", icon: javascriptIcon },
+                                { name: "Python", icon: pythonIcon }
+                            ]}
                         />
                     </div>
                     <div className="project-card">
@@ -93,6 +109,28 @@ const Projects = () => {
                             linkGitHub={"https://github.com/mr22206/SI-Engineering-Sciences-Project-Presentation"}
                             linkDoc={"https://github.com/mr22206/SI-Engineering-Sciences-Project-Presentation/blob/main/README.md"}
                             linkMail={"mailto:techinfotuto@gmail.com"}
+                            technologies={[
+                                { name: "React", icon: reactIcon },
+                                { name: "Node.js", icon: nodejsIcon },
+                                { name: "Arduino", icon: arduinoIcon }
+                            ]}
+                        />
+                    </div>
+                    <div className="project-card">
+                        <Project
+                            titleOfProject={"PCS Plumbing Website"}
+                            subtitleOfProject={"Site Vitrine Professionnel"}
+                            iconOfProjectSvg={<img className="icon" src={plumbingIcon} alt="icon" />}
+                            descriptionOfProject={"Site web professionnel pour une entreprise de plomberie à Carros, France, fournissant des informations sur les services de plomberie, chauffage et climatisation. Construit avec HTML, CSS, et JavaScript."}
+                            linkWebSite={"https://mr22206.github.io/Plumbing-website/"}
+                            linkGitHub={"https://github.com/mr22206/Plumbing-website"}
+                            linkDoc={"https://github.com/mr22206/Plumbing-website/blob/main/README.md"}
+                            linkMail={"mailto:techinfotuto@gmail.com"}
+                            technologies={[
+                                { name: "HTML", icon: htmlIcon },
+                                { name: "CSS", icon: cssIcon },
+                                { name: "JavaScript", icon: javascriptIcon }
+                            ]}
                         />
                     </div>
                     <div className="project-card">
@@ -105,6 +143,11 @@ const Projects = () => {
                             linkGitHub={"https://github.com/mr22206/CryptoMentor"}
                             linkDoc={"https://github.com/mr22206/CryptoMentor/blob/main/README.md"}
                             linkMail={"mailto:techinfotuto@gmail.com"}
+                            technologies={[
+                                { name: "React", icon: reactIcon },
+                                { name: "Node.js", icon: nodejsIcon },
+                                { name: "Arduino", icon: arduinoIcon }
+                            ]}
                         />
                     </div>
                     <div className="project-card">
@@ -117,11 +160,16 @@ const Projects = () => {
                             linkGitHub={"https://github.com/mr22206/Eucalyptus-Helper"}
                             linkDoc={"https://github.com/mr22206/Eucalyptus-Helper/blob/main/README.md"}
                             linkMail={"mailto:techinfotuto@gmail.com"}
+                            technologies={[
+                                { name: "React", icon: reactIcon },
+                                { name: "Node.js", icon: nodejsIcon },
+                                { name: "Arduino", icon: arduinoIcon }
+                            ]}
                         />
                     </div>
                     <div className="project-card">
                         <Project
-                            titleOfProject={"Convert_pdf_to_image_public"}
+                            titleOfProject={"Convert_pdf_to_image"}
                             subtitleOfProject={"Utilitaire de Conversion"}
                             iconOfProjectSvg={<img className="icon" src={convertIcon} alt="icon" />}
                             descriptionOfProject={"Logiciel simple mais puissant qui permet de convertir des fichiers PDF en images sans effort. Il vous permet d'éviter l'usage d'applications tierces ou de services en ligne. Le programme est disponible sous forme de fichier exécutable pour Windows."}
@@ -129,6 +177,11 @@ const Projects = () => {
                             linkGitHub={"https://github.com/mr22206/convert_pdf_to_image_public"}
                             linkDoc={"https://github.com/mr22206/convert_pdf_to_image_public/blob/main/README.md"}
                             linkMail={"mailto:techinfotuto@gmail.com"}
+                            technologies={[
+                                { name: "React", icon: reactIcon },
+                                { name: "Node.js", icon: nodejsIcon },
+                                { name: "Arduino", icon: arduinoIcon }
+                            ]}
                         />
                     </div>
                     <div className="project-card">
@@ -141,6 +194,11 @@ const Projects = () => {
                             linkGitHub={"https://github.com/mr22206/Personal-Server"}
                             linkDoc={"https://github.com/mr22206/Personal-Server/blob/main/README.md"}
                             linkMail={"mailto:techinfotuto@gmail.com"}
+                            technologies={[
+                                { name: "React", icon: reactIcon },
+                                { name: "Node.js", icon: nodejsIcon },
+                                { name: "Arduino", icon: arduinoIcon }
+                            ]}
                         />
                     </div>
                 </div>

@@ -4,7 +4,7 @@ import Card from '../Card_of_project/Card_of_project';
 import Ugly from '../Ugly/Ugly';
 
 
-const Project = ({titleOfProject, subtitleOfProject, iconOfProjectSvg, descriptionOfProject, linkWebSite, linkGitHub, linkDoc, linkMail}) => {
+const Project = ({titleOfProject, subtitleOfProject, iconOfProjectSvg, descriptionOfProject, linkWebSite, linkGitHub, linkDoc, linkMail, technologies}) => {
   return (
     <div className="oneProject">
         <div className="project-details">
@@ -13,7 +13,7 @@ const Project = ({titleOfProject, subtitleOfProject, iconOfProjectSvg, descripti
                 titleOfProject={titleOfProject} 
                 subtitleOfProject={subtitleOfProject} 
                 iconOfProjectSvg={iconOfProjectSvg}
- 
+                technologies={technologies}
                 />
             </div>
             <div className="project-description">
