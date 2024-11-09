@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio_Mohammad_Rezki/static/css/main.8d098583.css",
-    "main.js": "/Portfolio_Mohammad_Rezki/static/js/main.dc72116b.js",
+    "main.js": "/Portfolio_Mohammad_Rezki/static/js/main.2d2c28f0.js",
     "static/media/tech_info_tuto_logo.png": "/Portfolio_Mohammad_Rezki/static/media/tech_info_tuto_logo.612f772799170e90a17d.png",
     "static/media/experiences-diverses-logo.png": "/Portfolio_Mohammad_Rezki/static/media/experiences-diverses-logo.f09a8c1785e603d8098c.png",
     "static/media/avem_logo.png": "/Portfolio_Mohammad_Rezki/static/media/avem_logo.b5ab4caf4b031cbb9572.png",
@@ -10,6 +10,7 @@
     "static/media/education.svg": "/Portfolio_Mohammad_Rezki/static/media/education.c1ef780f93e91fa67b187f76efe6480e.svg",
     "static/media/crypto.svg": "/Portfolio_Mohammad_Rezki/static/media/crypto.b0b145392a884984ad0c375c8e7fef1e.svg",
     "static/media/server.svg": "/Portfolio_Mohammad_Rezki/static/media/server.0da8c3f9fbd92ac56c6194e9c9478241.svg",
+    "static/media/weather.svg": "/Portfolio_Mohammad_Rezki/static/media/weather.15422fc97281c7dfc628d5f839851d4c.svg",
     "static/media/convert.svg": "/Portfolio_Mohammad_Rezki/static/media/convert.1c92575578d92e6c2ce605af84a3504f.svg",
     "static/media/plumbing.svg": "/Portfolio_Mohammad_Rezki/static/media/plumbing.78df8d2c86bd9d0c7a63815a872bd1fd.svg",
     "static/media/giec.svg": "/Portfolio_Mohammad_Rezki/static/media/giec.4ab24ef1cc2486a72fb86c98b89063cb.svg",
@@ -17,10 +18,10 @@
     "static/media/quiz.svg": "/Portfolio_Mohammad_Rezki/static/media/quiz.86f693cf0345d4df8f8047ed6966f82b.svg",
     "index.html": "/Portfolio_Mohammad_Rezki/index.html",
     "main.8d098583.css.map": "/Portfolio_Mohammad_Rezki/static/css/main.8d098583.css.map",
-    "main.dc72116b.js.map": "/Portfolio_Mohammad_Rezki/static/js/main.dc72116b.js.map"
+    "main.2d2c28f0.js.map": "/Portfolio_Mohammad_Rezki/static/js/main.2d2c28f0.js.map"
   },
   "entrypoints": [
     "static/css/main.8d098583.css",
-    "static/js/main.dc72116b.js"
+    "static/js/main.2d2c28f0.js"
   ]
 }
