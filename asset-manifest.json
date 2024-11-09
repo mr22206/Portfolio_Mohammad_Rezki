@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio_Mohammad_Rezki/static/css/main.8d098583.css",
-    "main.js": "/Portfolio_Mohammad_Rezki/static/js/main.2d2c28f0.js",
+    "main.css": "/Portfolio_Mohammad_Rezki/static/css/main.50095a85.css",
+    "main.js": "/Portfolio_Mohammad_Rezki/static/js/main.254e68b3.js",
     "static/media/tech_info_tuto_logo.png": "/Portfolio_Mohammad_Rezki/static/media/tech_info_tuto_logo.612f772799170e90a17d.png",
     "static/media/experiences-diverses-logo.png": "/Portfolio_Mohammad_Rezki/static/media/experiences-diverses-logo.f09a8c1785e603d8098c.png",
     "static/media/avem_logo.png": "/Portfolio_Mohammad_Rezki/static/media/avem_logo.b5ab4caf4b031cbb9572.png",
     "static/media/click_and_moi_logo.png": "/Portfolio_Mohammad_Rezki/static/media/click_and_moi_logo.9c7c58c6c8dd3a3c270e.png",
     "static/media/engineering.svg": "/Portfolio_Mohammad_Rezki/static/media/engineering.840f5fb5dc554c42c70f34479d5ab53b.svg",
+    "static/media/react.svg": "/Portfolio_Mohammad_Rezki/static/media/react.9920128e901fa8bc542a4920f3355da2.svg",
+    "static/media/arduino.svg": "/Portfolio_Mohammad_Rezki/static/media/arduino.8f0b33aee38c5c919fcefbcd8f323f3c.svg",
+    "static/media/nodejs.svg": "/Portfolio_Mohammad_Rezki/static/media/nodejs.68e5cd9c9115b5d25d44a53621383c02.svg",
     "static/media/education.svg": "/Portfolio_Mohammad_Rezki/static/media/education.c1ef780f93e91fa67b187f76efe6480e.svg",
+    "static/media/python.svg": "/Portfolio_Mohammad_Rezki/static/media/python.913f8a959db625f74cf7d4de5c7e32fb.svg",
     "static/media/crypto.svg": "/Portfolio_Mohammad_Rezki/static/media/crypto.b0b145392a884984ad0c375c8e7fef1e.svg",
     "static/media/server.svg": "/Portfolio_Mohammad_Rezki/static/media/server.0da8c3f9fbd92ac56c6194e9c9478241.svg",
+    "static/media/javascript.svg": "/Portfolio_Mohammad_Rezki/static/media/javascript.9e1acdc520f1ad1e03670e6e4b756712.svg",
+    "static/media/css.svg": "/Portfolio_Mohammad_Rezki/static/media/css.883ac48d18f8c289a1110999fe3ddc0c.svg",
+    "static/media/html.svg": "/Portfolio_Mohammad_Rezki/static/media/html.135b35d636e6465efb4a19a2378a4812.svg",
     "static/media/weather.svg": "/Portfolio_Mohammad_Rezki/static/media/weather.15422fc97281c7dfc628d5f839851d4c.svg",
     "static/media/convert.svg": "/Portfolio_Mohammad_Rezki/static/media/convert.1c92575578d92e6c2ce605af84a3504f.svg",
     "static/media/plumbing.svg": "/Portfolio_Mohammad_Rezki/static/media/plumbing.78df8d2c86bd9d0c7a63815a872bd1fd.svg",
@@ -17,11 +24,11 @@
     "static/media/troubleshooting.svg": "/Portfolio_Mohammad_Rezki/static/media/troubleshooting.77a53d39c5c3bf6d28b72ea1dc63f7de.svg",
     "static/media/quiz.svg": "/Portfolio_Mohammad_Rezki/static/media/quiz.86f693cf0345d4df8f8047ed6966f82b.svg",
     "index.html": "/Portfolio_Mohammad_Rezki/index.html",
-    "main.8d098583.css.map": "/Portfolio_Mohammad_Rezki/static/css/main.8d098583.css.map",
-    "main.2d2c28f0.js.map": "/Portfolio_Mohammad_Rezki/static/js/main.2d2c28f0.js.map"
+    "main.50095a85.css.map": "/Portfolio_Mohammad_Rezki/static/css/main.50095a85.css.map",
+    "main.254e68b3.js.map": "/Portfolio_Mohammad_Rezki/static/js/main.254e68b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d098583.css",
-    "static/js/main.2d2c28f0.js"
+    "static/css/main.50095a85.css",
+    "static/js/main.254e68b3.js"
   ]
 }
