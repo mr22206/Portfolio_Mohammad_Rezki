@@ -16,7 +16,7 @@ const Home = () => {
                         <h2>Étudiant Ingénieur en Informatique</h2>
                         <div className="hero-buttons">
                             <Link to="/contact" className="primary-button">Me Contacter</Link>
-                            <a href="https://cvdesignr.com/p/6708f95e56332" className="secondary-button" target="_blank" rel="noopener noreferrer">
+                            <a href="https://cvdesignr.com/p/659ad5359e8ae" className="secondary-button" target="_blank" rel="noopener noreferrer">
                                 <FaDownload /> Télécharger CV
                             </a>
                         </div>
