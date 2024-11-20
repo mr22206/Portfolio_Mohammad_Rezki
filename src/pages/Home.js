@@ -61,7 +61,7 @@ const Home = () => {
                     <a href="mailto:rezki.mohammad@gmail.com" className="social-link">
                         <FaEnvelope /> Email
                     </a>
-                    <a href="https://cvdesignr.com/p/6708f95e56332" className="social-link">
+                    <a href="https://cvdesignr.com/p/659ad5359e8ae" className="social-link">
                         <FaFileAlt /> CV
                     </a>
                 </div>

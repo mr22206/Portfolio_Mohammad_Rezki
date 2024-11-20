@@ -49,9 +49,21 @@
     transform: translateY(-2px);
 }
 
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: #ff9800;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.mobile-title {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .header {
-        flex-direction: column;
         padding: 15px;
         gap: 15px;
     }
@@ -64,5 +76,46 @@
 
     .left nav ul li {
         font-size: 1.2em;
+    }
+
+    .hamburger {
+        display: block;
+        z-index: 1000;
+    }
+
+    .right {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background: inherit;
+        transition: 0.3s ease-in-out;
+        z-index: 999;
+    }
+
+    .right.active {
+        right: 0;
+    }
+
+    .right nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px;
+    }
+
+    .right nav ul li {
+        margin: 20px 0;
+    }
+
+    .desktop-title {
+        display: none;
+    }
+    
+    .mobile-title {
+        display: block;
+        color: #ff9800;
+        font-weight: bold;
+        font-size: 1.5rem;
     }
 }

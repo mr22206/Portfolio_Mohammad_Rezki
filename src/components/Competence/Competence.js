@@ -17,12 +17,6 @@ const Competence = ({
                 {competences.map((skill, index) => (
                     <div key={index} className="skill-item">
                         <h3 className="skill-name">{skill.nom}</h3>
-                        <div className="skill-level">
-                            <div 
-                                className="skill-progress" 
-                                style={{ width: `${skill.niveau}%` }}
-                            />
-                        </div>
                         <p className="skill-details">{skill.details}</p>
                     </div>
                 ))}

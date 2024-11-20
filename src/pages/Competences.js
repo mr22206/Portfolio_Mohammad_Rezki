@@ -7,128 +7,128 @@ import Competence from '../components/Competence/Competence';
 const Competences = () => {
     const competencesData = [
         {
-            categorie: "ITSM et Support Technique",
-            description: "Gestion des services IT et support utilisateur",
+            categorie: "Support & ITSM",
+            description: "Expertise en gestion des services IT et support utilisateur",
             competences: [
+                {
+                    nom: "Support Technique",
+                    niveau: 90,
+                    details: "Résolution d'incidents, maintenance préventive et corrective"
+                },
                 {
                     nom: "ITSM",
-                    niveau: 75,
-                    details: "Gestion des incidents, des problèmes et des changements"
-                },
-                {
-                    nom: "Dépannage Matériel",
                     niveau: 85,
-                    details: "Diagnostic et réparation hardware"
+                    details: "ITIL, gestion des services IT, amélioration continue"
                 },
                 {
-                    nom: "Maintenance Préventive",
+                    nom: "Gestion de Parc",
                     niveau: 80,
-                    details: "Planification et exécution de maintenance proactive"
+                    details: "GLPI, inventaire, maintenance proactive"
                 }
             ]
         },
         {
-            categorie: "Réseaux et Monétique",
-            description: "Configuration et maintenance des systèmes de paiement",
+            categorie: "Infrastructure & Réseaux",
+            description: "Configuration et maintenance des systèmes de paiement et réseaux",
             competences: [
                 {
-                    nom: "TPE/Monétique",
+                    nom: "Monétique",
                     niveau: 90,
-                    details: "Installation et maintenance des terminaux de paiement"
+                    details: "TPE, systèmes de paiement, sécurité PCI-DSS"
                 },
                 {
-                    nom: "Configuration Réseaux",
+                    nom: "Réseaux",
+                    niveau: 75,
+                    details: "TCP/IP, DHCP, DNS, VPN, routage"
+                },
+                {
+                    nom: "Sécurité",
                     niveau: 70,
-                    details: "TCP/IP, DHCP, DNS, routage basique"
-                },
-                {
-                    nom: "Sécurité Réseaux",
-                    niveau: 65,
-                    details: "Pare-feu, VPN, sécurisation des accès"
+                    details: "Pare-feu, sécurisation des accès, audit"
                 }
             ]
         },
         {
-            categorie: "Systèmes et Sécurité",
-            description: "Administration et sécurisation des systèmes d'exploitation",
+            categorie: "Systèmes & Cloud",
+            description: "Administration et déploiement des systèmes d'exploitation",
             competences: [
                 {
-                    nom: "Windows",
+                    nom: "Windows/Linux",
                     niveau: 85,
-                    details: "Administration, GPO, Active Directory"
+                    details: "Administration système, GPO, Active Directory"
                 },
                 {
-                    nom: "Linux",
-                    niveau: 60,
-                    details: "Administration basique, shell scripting"
-                },
-                {
-                    nom: "Android",
+                    nom: "Cloud Services",
                     niveau: 75,
-                    details: "Configuration et sécurisation des appareils mobiles"
+                    details: "Azure, AWS, solutions cloud hybrides"
+                },
+                {
+                    nom: "Virtualisation",
+                    niveau: 70,
+                    details: "VMware, Docker, conteneurisation"
+                }
+            ]
+        },
+        {
+            categorie: "Data & Analytics",
+            description: "Gestion et analyse des données d'entreprise",
+            competences: [
+                {
+                    nom: "Bases de données",
+                    niveau: 75,
+                    details: "SQL, MySQL, MongoDB, conception de BDD"
+                },
+                {
+                    nom: "Business Intelligence",
+                    niveau: 70,
+                    details: "Power BI, tableaux de bord, KPIs"
+                },
+                {
+                    nom: "Data Analysis",
+                    niveau: 65,
+                    details: "Excel avancé, analyse statistique, reporting"
                 }
             ]
         },
         {
             categorie: "Développement Web",
-            description: "Création d'interfaces web modernes",
+            description: "Création d'applications web modernes et responsives",
             competences: [
                 {
-                    nom: "HTML/CSS",
+                    nom: "Front-end",
                     niveau: 80,
-                    details: "Responsive design, Flexbox, Grid"
+                    details: "React.js, HTML5/CSS3, JavaScript ES6+"
                 },
                 {
-                    nom: "JavaScript",
+                    nom: "Back-end",
                     niveau: 70,
-                    details: "ES6+, manipulation DOM, événements"
+                    details: "Node.js, Express, API REST"
                 },
                 {
-                    nom: "React.js",
+                    nom: "DevOps",
                     niveau: 65,
-                    details: "Composants, hooks, state management"
+                    details: "Git, CI/CD, déploiement cloud"
                 }
             ]
         },
         {
-            categorie: "Technologies Domotiques",
-            description: "Installation et configuration de solutions domotiques",
+            categorie: "Outils Collaboratifs",
+            description: "Maîtrise des solutions de productivité et collaboration",
             competences: [
                 {
-                    nom: "Smart Home",
-                    niveau: 75,
-                    details: "Configuration d'appareils connectés"
-                },
-                {
-                    nom: "Automatisation",
-                    niveau: 70,
-                    details: "Scénarios et routines domotiques"
-                },
-                {
-                    nom: "Intégration IoT",
-                    niveau: 65,
-                    details: "Connexion et gestion des objets connectés"
-                }
-            ]
-        },
-        {
-            categorie: "Logiciels Bureautiques",
-            description: "Maîtrise des outils de productivité",
-            competences: [
-                {
-                    nom: "Microsoft Office",
+                    nom: "Microsoft 365",
                     niveau: 90,
-                    details: "Word, Excel, PowerPoint, Outlook"
+                    details: "Office, SharePoint, Teams"
                 },
                 {
-                    nom: "Gestion des accès",
+                    nom: "Gestion de Projet",
                     niveau: 80,
-                    details: "Droits utilisateurs, partage de ressources"
+                    details: "Jira, Trello, méthodologies agiles"
                 },
                 {
-                    nom: "Outils collaboratifs",
+                    nom: "Outils Cloud",
                     niveau: 85,
-                    details: "Teams, SharePoint, OneDrive"
+                    details: "Google Workspace, solutions collaboratives"
                 }
             ]
         }
@@ -139,6 +139,11 @@ const Competences = () => {
             <Header />
             <div className="competences-content">
                 <h1>Mes Compétences</h1>
+                <p className="competences-intro">
+                    De la gestion des infrastructures à l'analyse de données, 
+                    en passant par le développement web et le support technique, 
+                    mes compétences couvrent l'ensemble du spectre IT moderne.
+                </p>
                 <div className="competences-cards-container">
                     {competencesData.map((categorie, index) => (
                         <Competence key={index} {...categorie} />

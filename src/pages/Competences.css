@@ -21,6 +21,15 @@
     -webkit-text-fill-color: transparent;
 }
 
+.competences-intro {
+    text-align: center;
+    color: #e0e0e0;
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
 .competences-cards-container {
     display: flex;
     flex-direction: column;

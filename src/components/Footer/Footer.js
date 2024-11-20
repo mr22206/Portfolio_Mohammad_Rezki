@@ -14,7 +14,7 @@ const Footer = () => {
                     <Link to="https://github.com/mr22206">
                         <p>Projets GitHub</p>
                     </Link>
-                    <Link to="https://cvdesignr.com/p/6708f95e56332">
+                    <Link to="https://cvdesignr.com/p/659ad5359e8ae">
                         <p>Mon CV</p>
                     </Link>
                 </div>
